@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+img {
+	border: none;	
+}
+
+body {
+	background: black;
+}	
+
+p {
+	margin: 5px 0;
+}
+
+.Page, .CRT {
+	height: 100%;	
+	width: 100%;
+	position: absolute;
+}
+
+#QT {
+	top: -250px;
+	height: 250px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.95);
+	z-index: 100;
+}
+
+#QR {
+	left: 100%;
+}
+
+#QB {
+	width: 100%;
+	position: absolute;
+	right: 0; 
+	left: 0;
+	bottom: -250px;
+	margin: 0 auto;
+	height: 250px;
+	background: rgba(0, 0, 0, 0.95);
+}
+
+#QL {
+	left: -100%;
+	width: 250px;
+	background: rgba(0, 0, 0, 0.95);
+	
+}
+
+.contactContainer {
+	width: 978px;
+	height: 220px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.loginContainer {
+	width: 978px;
+	height: 220px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.sponsorsContainer {
+	color: white;
+	padding: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.sponLogo {
+	position: relative;
+	left: 25px;
+	width: 150px;
+	height: 60px;
+}
+
+.CRT {
+	overflow: hidden;
+	background: url(Images/MBG2.jpg) scroll center center no-repeat;
+}
+
+.Container {
+	position: absolute;
+	height: 600px;
+	width: 978px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#Vitruvian, .menuQuad, .contentPreview {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	z-index: 1;
+}
+
+.menuQuad {
+	opacity: 0;
+}
+
+.contentPreview {
+	height: 400px;
+	width: 400px;
+	z-index: 0;	
+}
+
+.ShiftR, .ShiftL {
+	position: absolute;
+	top: 0;
+	bottom: 0; 
+	right: 0;
+	left: 0;
+	margin: auto;
+	height: 500px;	
+	width: 500px;
+}
+
+.ShiftR {
+	height: 200px;
+	width: 300px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+}
+
+.ShiftDesc {
+	position: absolute;
+	width: 300px;
+	top: 0;
+	bottom: 0; 
+	left: 0;
+	margin: auto;
+	line-height: 15px;
+	text-align: justify;
+	padding: 20px 10px 10px 10px;
+	opacity: 0;
+	//border-top: solid thin white;
+	//border-bottom: solid thin white;
+}
+
+.navLink {
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 15px;
+	width: 100px;
+	border-radius: 5px;
+	background: white;
+	color: black;
+}
+
+#Logo {
+	top: 10;
+	left: 10;
+	position: absolute;
+}
+
+/* Specialized Styles */
+.menuBox {
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.menuByte {
+	height: 30px;
+	width: 8.3%;
+	position: relative;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 8px;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+	color: #DDD;
+}
+
+.selectorBoxR, .selectorBoxG {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 24px;
+	width: 8.33%;
+	border-bottom: solid medium #F00;
+	border-top: solid medium #F00;
+}
+
+.selectorBoxG {
+	border-bottom: solid medium #1A1;
+	border-top: solid medium #1A1;	
+}
+
+/* QuadSlider Styles */
+
+.sBox {
+	width: 978px;
+	height: 570px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+}
+
+.bGround, .mGround, .fGround {
+	width: 11740px;
+	height: 570px;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	
+}
+
+.bGround {
+	left: 0;	
+}
+
+.fGround {
+	right: 0;
+	z-index: 1;
+}
+
+.bGroundBox, .mGroundBox, .fGroundBox {
+	width: 978px;
+	height: 570px;
+	z-index: inherit;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.fGroundBox {
+	float: right;
+	width: 970px;
+	padding: 0 4px;	
+}
+
+.scene {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.BlackBox {
+	float: left;
+	position: relative;
+	height: 150px;
+	background: black;	
+}
+
+.lDiv, .rDiv {
+	position: absolute;
+	top: 0;	
+	height: 190px;
+	width: 455px;
+	color: white;
+	padding: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.lDiv { 
+	left: 0; 
+}
+.rDiv {
+	right: 0;
+}
+
+.required, .required email {
+	height: 20px;
+	width: 180px;
+	background: none;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 2px 10px;
+	margin: 5px 0;
+	color: white;
+	font-weight: bold;
+	box-shadow:0 0 4px #FFF;
+}
+
+.fBlock {
+	float: left;
+	padding: 5px 10px;	
+}
+
+.sButton {
+	cursor: pointer;
+	position: relative;
+	top: 18px;
+	height: 28px;
+	width: 204px;
+	border: none;
+	border-radius: 4px;
+	background: white;
+	color: black;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.Administration {
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 5px;
+	border-bottom: solid thin white;
+	border-left: solid thin white;
+	border-bottom-left-radius: 10px;
+	opacity: 1;
+	cursor: pointer;
+	z-index: 101;
+}
+
+#redAtom {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: white;
+}
+
+#redAtom a {
+	text-decoration: none;
+	color: #999;
+}

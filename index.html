@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>techKshetra'11</title>
+<link type="text/css" href="index.css" rel="stylesheet"  />
+</head>
+
+<body>
+	<map name="menu_map">
+		<area id="Q1M" shape="polygon" coords="1.00,251.00,6.02,302.00,20.41,349.02,43.21,391.21,73.44,427.69,110.11,457.58,152.24,480.01,198.87,494.11,249.00,499.00,249.00,451.00,204.61,446.29,165.16,433.06,130.93,412.68,102.25,386.50,79.41,355.88,62.72,322.19,52.48,286.77,49.00,251.00,1.00,251.00" />
+        <area id="Q2M" shape="polygon" coords="249.94,498.82,300.93,493.81,347.96,479.41,390.15,456.61,426.63,426.39,456.51,389.72,478.95,347.58,493.04,300.96,497.94,250.82,449.94,250.82,445.23,295.21,432.00,334.67,411.62,368.89,385.44,397.57,354.82,420.41,321.13,437.11,285.71,447.34,249.94,450.82,249.94,498.82" />
+        <area id="Q3M" shape="polygon" coords="497.94,249.82,492.92,198.83,478.52,151.80,455.72,109.61,425.50,73.14,388.83,43.25,346.70,20.82,300.07,6.72,249.94,1.82,249.94,49.82,294.32,54.54,333.78,67.76,368.00,88.15,396.69,114.32,419.53,144.94,436.22,178.64,446.46,214.05,449.94,249.82,497.94,249.82" />
+        <area id="Q4M" shape="polygon" coords="250.00,2.00,199.00,7.02,151.98,21.41,109.79,44.21,73.31,74.44,43.42,111.11,20.99,153.24,6.89,199.87,2.00,250.00,50.00,250.00,54.71,205.61,67.94,166.16,88.32,131.93,114.50,103.25,145.12,80.41,178.81,63.72,214.23,53.48,250.00,50.00,250.00,2.00" />
+	</map>
+<div class="CRT">
+    <div class="Page" id="QM">
+    	<div class="Container">
+        	<div class="ShiftL">
+            	<img id="Josco"style="opacity: 0; position: absolute; top: 200px; left: 120px;" src="Images/JOSCO.png" />
+                <canvas id="Vitruvian" width="500" height="500"> </canvas>
+                <img src="Images/Quadrant1.png" class="menuQuad" id="Q1" usemap = "#menu_map"/>
+                <img src="Images/Quadrant2.png" class="menuQuad" id="Q2" usemap = "#menu_map"/>
+                <img src="Images/Quadrant3.png" class="menuQuad" id="Q3" usemap = "#menu_map"/>
+                <img src="Images/Quadrant4.png" class="menuQuad" id="Q4" usemap = "#menu_map"/>
+                <div class="contentPreview" id="CP1"><canvas id="Logo" width="350" height="135" style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto; padding-top: 20px; z-index: 10;"> </canvas></div>
+                <div class="contentPreview" id="CP2"></div>
+                <div class="contentPreview" id="CP3"></div>
+                <div class="contentPreview" id="CP4"></div>
+            </div>
+            <div class="ShiftR">
+            	<div class="ShiftDesc" id="Desc1" style="height: 40px;">
+                	<center>We rock! Shout it from the rooftops!</center>
+                <br />
+                    <p align="center"><a class="navLink" id="Share">GO</a></p>
+                </div>
+            	<div class="ShiftDesc" id="Desc2" style="height: 100px;">
+                	<p>Want your pick of the best engineering minds in the student community? Be our sponsor.</p><br />
+                    <p align="center"><a class="navLink" id="Sponsors">GO</a></p>
+                </div>
+            	<div class="ShiftDesc" id="Desc3" style="height: 110px;">
+                	<p>A little bit of coding, a smattering of creativity and a dash of adventure...</p>
+                    <p>Prepare yourself for all this and more...</p>
+                    <p align="center"><a class="navLink" id="Events">GO</a></p>
+                </div>
+            	<div class="ShiftDesc" id="Desc4" style="height: 300px;">
+                	<p align="left">One Day...</p>
+                    <p align="right">&#x20b9; 100K/</p>
+					<p align="center">Will You Be The One?</p>
+                    <ul>
+                    <li>Let loose your wild side, and give shape to those insane ideas @ Crazy Inventions</li>
+                    <li>Get your adrenaline pumping @ Blaze Court and The Amazing Race</li>
+                    <li>Channel your inner cyberpunk @ h4ck4th0n, or enter a duel unto the death @ Code Wars</li>
+                    <li>Unravel the mystery that lies at the heart of Deadlock!
+                    </ul>
+                    <p align="center"> and so much more....</p>
+                    <p align="center">Can your afford to miss it?</p>
+                </div>
+            </div>
+		</div>
+	</div>
+    
+<script type="text/javascript" src="scripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="scripts/jQueryRotate.2.1.js"></script>
+<script type="text/javascript" src="scripts/twitter_widget_jso.js"></script>
+<script type="text/javascript" src="scripts/greyScale.min.js"></script>
+<script type="text/javascript" src="scripts/mAnim.js"></script>
+<script type="text/javascript" src="scripts/jquery.validate.min.js"></script>
+<script type="text/javascript" src="scripts/adaptor.js"></script>
+<script type="text/javascript">
+	$(function(){$("#regform").validate();
+	$("#logform").validate();});
+	
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18371382-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    <div class="Page" id="QR">
+    	<div class="Container">
+        <div class="sBox">
+        	<div id="HomeFromEvents" style="position: absolute; left: 0; top: 0; background: black; border-bottom-right-radius: 10px; z-index: 20; cursor: pointer; height: 30px; width: 120px; text-align: center; font-weight: bold; line-height: 30px;">Back</div>
+        	<div class="bGround">
+            	<div class="bGroundBox">
+                	<img src="Images/BC_H.png" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;"/>
+                    <div style="background: rgba(0, 0, 0, 0.9); width: 300px; height: 300px; padding: 10px; position: absolute; bottom: 0; left: 0; border-top-right-radius: 10px;">
+                    	<p><b>Competition Rules</b></p>
+						<div style="position: relative; left: 30px; width: 250px;">
+                        <p>1. The game is played in a small court as a 3-on-3 match.</p>
+                        <p>2. Barriers are placed around the court, and are to be factored into the players' strategy</p>
+                        <p>3. Each match lasts 7 minutes</p>
+                        <p>4. 32 teams contest in 2 pools for a grand prize of `4000. Second place winner gets `1500 and the maximum goal scorer gets `500.</p>
+                        <p>5. Slots are allotted on a first come first serve basis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/TO_H.gif" style="position: absolute; left: 30px; top: 0; bottom: 0; margin: auto;"/>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/CW_L.png" style="position: absolute; left: 0; bottom: 0;"/>
+                    <div style=" font-size: 9px; background: rgba(0, 0, 0, 0.9); padding: 10px; width: 350px; height: 200px; position: absolute; left: 0; right: 0; margin: auto; top: 320px;">
+                        <b>Rules and Regulations</b>
+                        <p>1. Each competing team must have two members</p>
+                        <p>2. The event will be conducted in two rounds:
+                        <p style="position: relative; left: 20px;">a. The first round will consist of an MCQ test, checking the contestants' knowledge
+                        of programming languages, algorithms and technologies. The top 10 teams will
+                        advance to the next round.</p>
+                        <p style="position: relative; left: 20px;">b. The second round will consist of two stages:
+                        <p style="position: relative; left: 10px;">i. A tutorial on an esoteric programming language</p>
+                        <p style="position: relative; left: 10px;">ii. The contestants will then be given a problem, and asked to tackle it using
+                        the new programming language. They will then be asked to present it in front a panel of judges, and fellow
+                        contestants, who can then test the program and check for robustness</p></p></p>
+                        <p>3. Judges decision is final</p>
+                    </div>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/LT_H.gif" style="position: absolute; left: 0; bottom: 10px;"/>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/KZ_H.gif" style="position: absolute; right: -6px; bottom: -5px;"/>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/5T_L.png" style="position: absolute; left: 20px; bottom: 0; top: 0; margin: auto;"/>
+                    <div style="background: rgba(0, 0, 0, 0.9); border-radius: 10px; padding: 15px;  position: absolute; right: 90px; top: 0; bottom: 0; margin: auto; height: 500px; width: 400px;">
+                    	<p><b>Pentathlon</b></p>
+                        <p><i>The Ultimate TechStravaganza</i></p>
+                        <p>Welcome to Pentathlon...a team based  treasure hunt in 5 breathless rounds...Unravel the mystery at the heart of each tech puzzle to get one step closer to that elusive treasure. 
+                        Unleash that fire within you...'Cos this is one event that'll take all you've got!</p>
+                        <b>Rules</b>
+                        <ul style="position: relative; left: 40px; width: 350px;">
+                        <li>2 members to a team </li>
+                        <li>A preliminary elimination round will be conducted</li>
+                        <li>Judges' decision is final</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/CI_L.png" style="position: absolute; right: 0; bottom: 0;"/>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/AR_H.png" style="position: absolute; right: 0; left: 0; margin: auto; top: 20px;"/>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/HT_L.png" style="position: absolute; top: 20px; left: 0; right: 0; margin: auto;"/>
+                    <div style="background: rgba(0, 0, 0, 0.9); padding: 15px; border-radius: 15px; height: 170px; width: 300px; position: absolute; top: 250px; right: 0; left: 0; margin: auto;">
+                        <b>Hackathon</b>
+                        <p><i>chu W4171N' PHOR, Cy83RPUnk</i></p>
+                        <p>Think yourself equal to the elite |-|4><0R3R5 of yore? Then come prove your mettle in the all-new hackathon .. Coding challenge of champions.</p>
+                        <p><b>Rules and regulations.. Coming soon</b></p>
+					</div>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/CD_H.png" h style="position: absolute; right: 0; bottom: -68px; left: 0; top: -68px; margin: auto;"/>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/DL_H.png" style="position: absolute; right: 0; bottom: 0; top: 0; left: 0; margin: auto;"/>
+                    <div id="dLock" style="opacity: 0; border-radius: 10px; background: rgba(0, 0, 0, 0.9); padding: 15px; height: 300px; width: 500px; position: absolute; left: 0; right: 0; bottom: 0; top: 0; margin: auto;">
+                        <p><b>Deadlock Evolution</b></p>
+                        <p>Deadlock's back, and its bigger, faster and meaner than ever before!</p>
+                        <p>Follow in Theseus' footsteps as you traverse the meandering byways of the maze – but beware the perils that beset the unwary! Its labyrinthine byways are strewn with dead ends and false promises...</p>
+                        <p>Make your mark at RSET's signature event – an Online Treasure Hunt that's open to anyone, anywhere…as long as you have the <a style="text-decoration: none; color: #FFF;" href="http://www.deadlock.techkshetra.com">key</a>...</p>
+                        <p>A motherlode treasure chest of ` 10,000 awaits the victor!</p>
+                        <p><b>Competition Rules</b></p>
+                        <ul style="position: relative; left: 40px; width: 350px;">
+                        <li>All participants have to first register at the website</li>
+                        <li>The winner should report at the RSET campus on September 16th,2011 along with his/her school/college ID to claim the prize</li>
+                        <li>All you have to do is keep checking the website for updates!</li>
+                        </ul>
+                    </div>
+                    <div id="dLocked" style="cursor: pointer; position: absolute; font-size: 40px; color: rgba(255, 255, 255, 0.5); top: 260px; line-height: 35px; left: 20px; height: 35px; width: 25px; text-align: center;">?</div>
+                </div>
+                <div class="bGroundBox">
+                	<img src="Images/QZ_H.png" style="position: absolute; right: 0; bottom: 0; top: 0; left: 0; margin: auto;"/><br />
+                    <div style="background: rgba(0, 0, 0, 0.9); border-radius: 10px; padding: 10px; width: 250px; height: 200px; position: absolute; left: 10px; top: 0; bottom: 0; margin: auto;">
+                        <b>PrashnaKshetra</b>
+                        <p>School and college level quizzes no longer is knowledge imparted under banyan trees by wise old gurus.. Its fast, furious... And deadly. </p>
+                        <p>Battle some of the sharpest minds in adrenaline drenched rounds to win the much coveted title, and highly attractive prizes!</p>
+                    </div>
+                </div>
+            </div>
+        	<div class="fGround">
+            	<div class="fGroundBox">
+                	<img src="Images/BC_L.png" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;"/>
+                	<div style="text-align: left; border-bottom-left-radius: 10px; padding: 15px; width: 300px; height: 150px; position: absolute; top: 0; right: 0; background: rgba(0, 0, 0, 0.9)">
+                    	<p><b>Blaze Court</b></p>
+                        <p><i>Do you have what it takes…to survive on Da Streetz?</i></p>
+                        <p>Use your street smarts and deft footwork in Joga Bonito - a fast and furious game of street
+                        football, or show off your smooth Basketball moves in Trickster.</p>
+                    </div>
+                </div>
+                <div class="fGroundBox">
+                	<div style="background: rgba(0, 0, 0, 0.9); padding: 10px; position: absolute; right: 0; top: 0; bottom: 0; margin: auto; width: 500px;">
+                    	<b>The One</b>
+                        <p><i>Could you be…the next Ambani?</i></p>
+                        <p>Do you know how to get your team safely down a mountain in a storm? Or how to meet a six-
+                        hour deadline on a product launch?</p>
+                        <p>Then this could be the event for you! Showcase your abilities in 3 exciting rounds designed to
+                        test your problem solving and quick thinking skills.</p>
+                        <p><b>Competition Rules</b></p>
+                        <div style="position: relative; left: 30px;">                    
+	                        <p>1. The event has three rounds:</p>
+                            <p style="position: relative; left: 30px; width: 400px;"><b>a. Prelims</b><br />
+                            This includes a general aptitude and creativity test, with a time limit. A cut off
+                            score will be set, and participants who do not make the cut will be eliminated.</p>
+                            <p style="position: relative; left: 30px; width: 400px;"><b>b. Group Discussion</b><br />
+                            Selected contestants appear for a GD, and are assessed on the basis of
+                            knowledge of the discussion topic, and presentation skills. The judge's decision is
+                            final.</p>
+                            <p style="position: relative; left: 30px; width: 400px;"><b>c. Marketing and Stress Interview</b><br />
+                            Participants are tested on the basis of their marketing and event management
+                            skills, followed by a one on one interview for the selected participants.</p>
+                            <p>2. Overall winner gets a grand prize of `10,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fGroundBox">
+                	<img src="Images/CW_H.png" style="position: absolute; left: 0; bottom: 0;"/>
+                    <div style="background: rgba(0, 0, 0, 0.9); padding: 10px; width: 800px; height: 100px; position: absolute; left: 0; right: 0; margin: auto; top: 200px;">
+                    	<b>Code Wars</b>
+                        <p><i>Fancy yourself a Master learned in the mysterious ways of the Code?</i></p>
+                        <p>Think you have what it takes to come out on top in an all-out programming duel?</p>
+                        <p>Then May the force be with you, youngling!</p>
+                    </div>
+                </div>
+                <div class="fGroundBox">
+                	<img src="Images/LT_L.gif" style="position: absolute; left: 0; bottom: 10px;"/>
+                    <div style="padding: 15px; height: 200px; width: 400px; position: absolute; right: 20px; top: 0; bottom: 0; margin: auto; background: rgba(0, 0, 0, 0.9); border-radius: 15px; ">
+                    	Can your robot find the path to enlightenment? For The Way is hard, indeed. 
+                        <p><b>Rules and Regulations:</b></p>
+                        <p><b>Competition Structure:</b>
+                        <ul style="position: relative; left: 40px; width: 350px; ">
+                        <li>Design an autonomous bot that can follow a black line on a white background.</li>
+                        <li>Participants' knowledge of basic sensor design and robot control systems will be showcased</li>
+                        <li>The robot that completes the course in the shortest time is the winner.</li>
+                        <li>Exact layout of the course will be made available the morning of the competition.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="fGroundBox">
+                	<div style="background: rgba(0, 0, 0, 0.9); border-radius: 10px; padding: 10px; position: absolute; left: 20px; top: 0; bottom: 0; margin: auto; width: 500px; height: 500px;">
+                    	<b>Counter Strike</b>
+                        <p><b>General Format:</b><br /><ul>
+                        <li>All matches will be played using CounterStrike 1.6</li>
+                        <li>Competition Method : 5 vs. 5 (Team Play, 5 players per team)</li>
+                        <li>Map Rotation : De_Dust2, De_Inferno, De_Nuke , De_Train</li>
+                        <li>Rounds : 15 rounds as Terrorists and 15 rounds as Counter-Terrorists, per team</li>
+                        <li>Victory Condition : The first team to win 16 rounds</li>
+                        <li>Round Time : 1 minute 45 seconds</li>
+                        <li>The tournament will be conducted in a knockout format</li>
+                        <li>This event is open to all school & college students, above the age of 17</li>
+                        <li>In case of any disputes, decision of the game crew will be final</li>
+                        </ul>
+                        </p>
+                        <p><b>FIFA '09</b></p>
+                        <p><b>Event Description:</b></p>
+                        <p><b>General format:</b></p>
+						<ul>
+                        <li>Single player event</li>
+                        <li>Computer Difficulty: Professional</li>
+                        <li>Game duration (half time): 4 mins</li>
+                        </ul>
+                        <p><b>Support Information</b></p>
+						<ul>
+                        <li>Headphones will not be provided. Players can bring their own</li>
+                        <li>All other Rules & regulations will be specified on the day of event</li>
+                        <li>Separate registration fee of Rs. 50 per head for both gaming events</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fGroundBox">
+                	<img src="Images/5T_H.png" style="position: absolute; left: 20px; bottom: 0; top: 0; margin: auto;"/>
+                </div>
+                <div class="fGroundBox">
+                	<img src="Images/CI_H.gif" style="position: absolute; left: -5px; bottom: 0; top: 0; margin: auto;"/>
+                    <div style="position: absolute; top: 10px; left: 400px; background: rgba(0, 0, 0, 0.9); padding: 10px; height: 520px; width: 350px;">
+                    	<b>Crazy Inventions</b>
+                        <p><i>Da Vinci on Crack!</i></p>
+                        <p>Are you the kind to do things differently? Ever surprised yourself with a super-cool invention?
+                        Well…now's your chance to prove yourself!</p>
+                        <p>Attain a new level of creative insanity through Crazy Inventions – only at RSET!</p>
+                        <p>Bring out your inner inventing wizard, give shape to those crazy fizzing ideas buzzing around
+                        in your brain, and you could bag a grand prize of `5000!</p>
+                        <p>It's simple…It's fun…It's every bit as cool as it sounds!</p>
+                        <p><b>Rules and regulations:</b></p>
+                        <p>1. We test your insanity combined with innovation in 4 levels:</p>
+                        <p>Round 1: Screening based on analytical skills<br />
+                        Round 2: Assessment based on speed and accuracy<br />
+                        Round 3: Tests your creativity, innovation and prudence<br />
+                        Round 4: Decides the winner based on the overall excellence in the task.<br />
+                        <p>2. Cross college teams are allowed. Each team can have 2-4 members</p>
+                    </div>
+                </div>
+                <div class="fGroundBox">
+                	<img src="Images/AR_L.jpg" style="position: absolute; right: 0; left: 0; margin: auto; top: 20px;"/>
+                    <div style="background: rgba(0, 0, 0, 0.9); border-radius: 10px; padding: 15px; position: absolute; right: 0; left: 0; margin: auto; bottom: 20px; height: 250px; width: 500px;">
+                    <b>The Amazing Race</b>
+                    <p><i>Bhaag bhaag DK bose </i></p>
+                    <p>Its that crazy no-holds-barred treasure hunt show y'all know and love...</p>
+                    <p>And now you have a once in a lifetime chance to play it live</p>
+                    <p>Welcome to RSET'S very own...</p>
+                    <p><b>AMAZING RACE!</b></p>
+                    <p>Where the only rule is...Its got no rules...</p>
+                    </div>
+                </div>
+                <div class="fGroundBox">
+                    <img src="Images/HT_H.png" style="position: absolute; top: 20px; left: 0; right: 0; margin: auto;"/>
+                </div>
+                <div class="fGroundBox">
+					<div style="position: absolute; background: rgba(0, 0, 0, 0.9); height: 400px; width: 500px; top: 0; left: 0; bottom: 0; right: 0; margin: auto; color: #0F0; padding: 15px; font-family: 'Courier New', Courier, monospace; border-radius: 10px;">
+                        <b>Circuit Debugging</b>
+                        <p><i>Tell that electron where to go!</i></p>
+                        <p>Delve deep into the inner working of that mass of wires, capacitors and semiconductors, get to
+                        that bug and fix it – before anyone else does.</p>
+                        <p><b>Competition Rules</b></p>
+                        <div style="position: relative; left: 30px;">
+                            <p>1. Contestants participate in teams of two<br />
+                            2. Event conducted in two phases:<br />
+                            <div style="position: relative; left: 40px; width: 400px;">
+                                a. Prelims<br />
+                                A written test of 30 minute duration, to test the contestants' basic electronics
+                                skills and ability to identify faults in the circuit.<br />
+                                b. Finals<br />
+                                Qualified teams will be provided with bugged hardware circuits, which they have
+                                to debug as fast as possible.<br />
+                            </div></p>
+                            <p>3. Contestants will be judged on the basis of speed of completion, quality of output and
+                            record of errors corrected. Decision of the judges is final.</p>
+                        </div>
+					</div>
+                </div>
+                <div class="fGroundBox">
+                	<img src="Images/DL_L.png" style="position: absolute; right: 0; bottom: 0; top: 0; left: 0; margin: auto;"/>
+                </div>
+                <div class="fGroundBox">
+                	<img src="Images/QZ_L.png" style="position: absolute; right: 0; bottom: 0; top: 0; left: 0; margin: auto;"/>
+                    <div style="background: rgba(0, 0, 0, 0.9); border-radius: 10px; padding: 10px; width: 250px; height: 200px; position: absolute; right: 10px; top: 0; bottom: 0; margin: auto; visibility: hidden;">
+                        <b>PrashnaKshetra</b>
+                        <p>School and college level quizzes no longer is knowledge imparted under banyan trees by wise old gurus.. Its fast, furious... And deadly. </p>
+                        <p>Battle some of the sharpest minds in adrenaline drenched rounds to win the much coveted title, and highly attractive prizes!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="scene">
+            	<img src="Images/BGS.png" />
+            </div>
+        </div>
+		<div class="menuBox">
+            <div class="selectorBoxG"></div>
+            <div class="selectorBoxR"></div>
+        	<div class="menuByte" id="M1C">BlazeCourt</div>
+            <div class="menuByte" id="M2C">The One</div>
+            <div class="menuByte" id="M3C">Code Wars</div>
+            <div class="menuByte" id="M4C">Line Tracer</div>
+            <div class="menuByte" id="M5C">Killer Zone</div>
+            <div class="menuByte" id="M6C">Pentathlon</div>
+            <div class="menuByte" id="M7C">Junkyard Wars</div>
+            <div class="menuByte" id="M8C">Amazing Race</div>
+            <div class="menuByte" id="M9C">h4ck4th0n</div>
+            <div class="menuByte" id="M10C">Ckt Dbugr</div>
+            <div class="menuByte" id="M11C">Deadlock</div>
+            <div class="menuByte" id="M12C">Quiz</div>
+        </div>
+    	</div>
+	</div>
+    <div class="Page" id="QT">
+    	<div class="loginContainer">
+        	<div class="lDiv">
+            	Updates go here :D
+            </div>
+            <div class="rDiv" id="SignUp">
+            <form name = "regform">
+                <div class="fBlock">First Name<br /><input class="required" name="firstname" type="text" /></div>
+                <div class="fBlock">Last Name<br /><input class="required" name="lastname" type="text" /></div>
+                <div class="fBlock">College<br /><input class="required" name="college" type="text" /></div>
+                <div class="fBlock">E-Mail<br /><input class="required email" name="mail" type="text" /></div>
+                <div class="fBlock">Phone<br /><input class="required" name = "phone" type="text" /></div>
+                <div class="fBlock"><input class="sButton" id="suSubmit" type="button" value="Register" onClick="UserRegistration(document.regform.mail.value,document.regform.firstname.value,document.regform.lastname.value,document.regform.phone.value,document.regform.college.value)"/></div>
+            </form>
+            </div>
+            <div class="rDiv" id="LogIn">
+            <form name="logform">
+                <div class="fBlock">E-Mail<br /><input class="required email" name= "mail" type="text" /></div>
+                <div class="fBlock">Password<br /><input class="required" name = "password" type="password" /></div>
+                <div class="fBlock"><input class="sButton" id="liSubmit" type="button" value="Log In" onClick="Login(document.logform.mail.value,document.logform.password.value)" /></div>
+            </form>
+            </div>
+		</div>
+		<div id="HomeFromTop" style=" position: absolute; bottom: 0; width: 100%; height: 20px; border-top: solid thin white; text-align: center; color: white; cursor: pointer;">▲</div>
+	</div>
+    <div class="Page" id="QB">
+		<div id="HomeFromShare" style="height: 20px; border-bottom: solid thin white; text-align: center; color: white; cursor: pointer;">▼</div>
+    	<div class="contactContainer">
+        	<img style="height: 64px; width: 64px; position: absolute; left: 50px; top: 10px;" src="Images/FB.png" />
+            <img style="height: 64px; width: 64px; position: absolute; left: 50px; top: 0; bottom: 0; margin: auto;" src="Images/TW.png" />
+            <div id="container" style="color: white; border-radius: 5px;"></div>
+            <div style="position: absolute; left: 600px; color: white; font-family: Verdana, Geneva, sans-serif; padding: 10px; font-size: 12px;">
+            	<p style="margin-top: 0;"><b><u>Contact Us</u></b></p>
+                <b>Web Design Team:</b><br />
+                <p>Jesly <a href="www.redatom2.0fees.net">#redatom</a>: +919809815305</p>
+                <p>Vivek <a href="www.redatom2.0fees.net">#redatom</a>: +919633810626</p>
+                <p>Angela <a href="www.redatom2.0fees.net">#redatom</a></p>
+                <div style="font-size: 10px">
+                <b>Techfest Team:</b><br />
+                <p>Bobby Sebastian Kariyatty: +918907682004</p>
+                <p>Priyanka Susan Vinson: +919846600027</p>
+                <p>Aswin Krishnan: +918891639280</p>
+                <p>Christopher John: +919895565112</p>
+                <p>Boris B. Joseph: +919809240025</p>
+                <p>Ceena Jacob: +919747550798</p>
+                </div>
+            </div>
+		</div>
+	</div>
+    <div class="Page" id="QL">
+    	<div id="HomeFromSponsors" style="width: 20px; height: 100%; border-left: solid thin white; text-align: center; color: white; cursor: pointer; position: absolute; right: 0;">
+        <div style="position: absolute; top: 0; bottom: 0; margin: auto; height: 15px; line-height: 15px;">◄</div>
+        </div>
+        <div class="sponsorsContainer">
+        <p>Platinum Sponsor:</p>
+        <img class="sponLogo" id="platSpon" src="Images/platLogo.gif"/>
+        <p>Gold Sponsor:</p>
+        <img class="sponLogo" id="goldSpon" src="Images/goldLogo.gif"/>
+        <p>Silver Sponsor:</p>
+        <img class="sponLogo" id="silvSpon" src="Images/silvLogo.gif"/>
+        </div>
+    </div>
+	<div class="Administration">
+    	<a id="Signup">Sign Up</a> | <a id="Login">Login</a>
+    </div>
+</div>
+</body>
+</html>

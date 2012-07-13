@@ -1,0 +1,15 @@
+Options All -Indexes
+<Files .htaccess>
+order deny,allow
+deny from all
+</Files>
+
+<Directory /libraries>
+order deny,allow
+deny from all
+</Directory>
+
+<Directory /cult>
+order deny,allow
+deny from all
+</Directory>
